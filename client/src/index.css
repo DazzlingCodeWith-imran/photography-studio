@@ -1,2 +1,93 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+
+
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity)); /* gray-800 */
+}
+
+.dark .bg-white\/10 {
+  background-color: rgba(55, 65, 81, 0.1); /* gray-700/10 */
+}
+
+.dark .text-gray-700 {
+  color: #e5e7eb; /* gray-200 */
+}
+
+.dark .bg-white {
+  background-color: #1f2937; /* gray-800 */
+}
+
+.dark .bg-gray-50 {
+  background-color: #1f2937; /* gray-800 */
+}
+
+.dark .bg-gray-100 {
+  background-color: #374151; /* gray-700 */
+}
+
+.dark .bg-gradient-to-b.from-gray-50.to-gray-100 {
+  background-image: linear-gradient(to bottom, #1f2937, #111827); /* gray-800 to gray-900 */
+}
+
+.dark .bg-gradient-to-br.from-gray-50.to-blue-50 {
+  background-image: linear-gradient(to bottom right, #1f2937, #111827); /* gray-800 to gray-900 */
+}
+
+.dark .bg-blue-100 {
+  background-color: #374151; /* gray-700 */
+}
+
+.dark .border-gray-200 {
+  border-color: #374151; /* gray-700 */
+}
+
+.dark .bg-blue-500\/20 {
+  background-color: rgba(55, 65, 81, 0.2); /* gray-700/20 */
+}
+
+.dark .bg-purple-500\/20 {
+  background-color: rgba(55, 65, 81, 0.2); /* gray-700/20 */
+}
+
+.dark .text-blue-100 {
+  color: #e5e7eb; /* gray-200 */
+}
+
+.dark .text-purple-100 {
+  color: #e5e7eb; /* gray-200 */
+}
+
+.dark .text-gray-600 {
+  color: #d1d5db; /* gray-300 */
+}
+
+.dark .text-gray-500 {
+  color: #9ca3af; /* gray-400 */
+}
+
+.dark .border-gray-300 {
+  border-color: #4b5563; /* gray-600 */
+}
+
+.dark .bg-gradient-to-r.from-blue-900\/80.to-purple-900\/80 {
+  background-image: linear-gradient(to right, #111827, #1f2937); /* gray-900 to gray-800 */
+}
+
+.dark .bg-gradient-to-br.from-blue-600.to-blue-800 {
+  background-image: linear-gradient(to bottom right, #374151, #1f2937); /* gray-700 to gray-800 */
+}
+
+.dark .bg-gradient-to-br.from-purple-600.to-purple-800 {
+  background-image: linear-gradient(to bottom right, #374151, #1f2937); /* gray-700 to gray-800 */
+}
+
+/* Smooth theme transition */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
