@@ -14,36 +14,36 @@ const Footer = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const footerLinks = [
-    {
-      title: 'Services',
-      links: [
-        { name: 'Portrait Photography', url: '/services#portrait' },
-        { name: 'Wedding Photography', url: '/services#wedding' },
-        { name: 'Commercial Shoots', url: '/services#commercial' },
-        { name: 'Video Production', url: '/services#video' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { name: 'About Us', url: '/about' },
-        { name: 'Blog', url: '/blog' },
-        { name: 'Pricing', url: '/pricing' },
-        { name: 'Contact', url: '/contact' },
-      ],
-    },
-    {
-      title: 'Resources',
-      links: [
-        { name: 'Blog', url: '/blog' },
-        { name: 'Pricing', url: '/pricing' },
-        { name: 'FAQ', url: '/faq' },
-        { name: 'Support', url: '/support' },
-      ],
-    },
-  ];
+const footerLinks = [
+  {
+    title: 'Services',
+    links: [
+      { name: 'Portrait Photography', url: '/services#portrait' },
+      { name: 'Wedding Photography', url: '/services#wedding' },
+      { name: 'Commercial Shoots', url: '/services#commercial' },
+      { name: 'Video Production', url: '/services#video' },
+    ],
+  },
+  {
+    title: 'Company',
+    links: [
+      { name: 'About Us', url: '/about' },
+      { name: 'Blog', url: '/blog' },
+      { name: 'Pricing', url: '/pricing' },
+      { name: 'Booking', url: '/booking' }, // Add this
+      { name: 'Contact', url: '/contact' },
+    ],
+  },
+  {
+    title: 'Resources',
+    links: [
+      { name: 'Blog', url: '/blog' },
+      { name: 'Pricing', url: '/pricing' },
+      { name: 'FAQ', url: '/faq' },
+      { name: 'Cookies', url: '/Cookies' },
+    ],
+  },
+];
 
   const socialLinks = [
     { icon: <FaFacebook />, url: 'https://facebook.com/photostudio', name: 'Facebook' },
